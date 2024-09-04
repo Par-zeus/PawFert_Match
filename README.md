@@ -35,15 +35,16 @@ By implementing these features, the hotel management can streamline operations, 
 1.Clone the repository:
 
 ```bash
-  git clone https://github.com/MonilMehta/LOC-CheckIn-HotelManagement
+  git clone https://github.com/Par-zeus/PawFert_Match.git
 
 ```
 
-2.Install dependencies:
+2.navigate to Backend directory and install dependencies
 
 ```bash
-cd core
-Pip install -r requirements.txt
+cd Backend
+pip install flask flask-cors flask-sqlalchemy flask-migrate flask-login flask-wtf flask-restful psycopg2-binary gunicorn requests
+
 ```
     
 ## Usage
@@ -51,10 +52,10 @@ Pip install -r requirements.txt
 
 ```bash
 cd Backend
-python manage.py runserver
+python run.py 
 ```
 
-2.navigate to frontend directory and install dependencies
+2.Now navigate to frontend directory and install dependencies
 
 
 ```bash
